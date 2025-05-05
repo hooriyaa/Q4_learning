@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/fe54d7e7-c7da-44b7-b8b0-69e94282910c)
+
+
 # 🤖 What is Generative AI? 
 
 Have you ever seen a robot write a story, create an image, or compose a song? That’s the magic of **Generative AI**! ✨
