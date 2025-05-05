@@ -1,4 +1,4 @@
-# 🤖 What is Generative AI? – Explained in the Simplest Way
+# 🤖 What is Generative AI? 
 
 Have you ever seen a robot write a story, create an image, or compose a song? That’s the magic of **Generative AI**! ✨
 
