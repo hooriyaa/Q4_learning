@@ -22,3 +22,7 @@ Generative AI helps people save time, get creative, and even learn faster. 🕒�
 
 Generative AI isn’t magic — it’s technology that learns from data and helps us create more, faster. 🚀  
 If you're curious, explore tools like ChatGPT or Midjourney and see it in action yourself! 🔎🤩
+
+
+
+blog link: [https://medium.com/@guujarmahnoor0312/what-is-generative-ai-f72150f29e74]
