@@ -1,7 +1,7 @@
 
 # FastAPI Project
 
-This is a simple FastAPI project for building APIs in Python. FastAPI is a fast and easy-to-use web framework that automatically creates API docs.
+FastAPI is a modern and high-performance web framework for building APIs with Python. It is designed to be fast, easy to use, and scalable, making it a great choice for both small and large applications.
 
 ## Features
 
