@@ -104,4 +104,4 @@ You will see the **Swagger UI**, a tool where you can test your APIs easily.
 
 ## 🙋‍♀️ About
 
-This project was created by **Hooriya Muhammad Fareed** to learn and share how to work with parameters in FastAPI in an easy way.
+This project was created by **Hooriya M.Fareed** to learn and share how to work with parameters in FastAPI in an easy way.
