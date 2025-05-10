@@ -4,7 +4,7 @@ This project is made using **FastAPI**, a modern Python web framework. It shows 
 
 ---
 
-## 📌📚 Key Concepts Covered
+## 📚 Key Concepts Covered
 
 - ✅ Use **Path Parameters** (data in the URL like `/items/1`)
 - ✅ Use **Query Parameters** (data after the `?` in URL like `/items?q=book`)
