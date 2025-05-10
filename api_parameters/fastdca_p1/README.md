@@ -101,12 +101,6 @@ You will see the **Swagger UI**, a tool where you can test your APIs easily.
 
 ---
 
-## 📚 Learn More
-
-- FastAPI Documentation: [https://fastapi.tiangolo.com](https://fastapi.tiangolo.com)
-- Pydantic (data validation): [https://docs.pydantic.dev](https://docs.pydantic.dev)
-
----
 
 ## 🙋‍♀️ About
 
