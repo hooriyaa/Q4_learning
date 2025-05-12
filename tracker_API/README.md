@@ -167,5 +167,5 @@ It lets you:
 Perfect for personal projects or team task management systems.
 Fast, flexible, and beginner-friendly. ✅
 
-**Happy Tracking!** 📌🚀
+Happy Tracking!🚀
 ---
