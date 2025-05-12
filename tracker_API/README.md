@@ -84,7 +84,7 @@ This section walks you through how to use the API — from viewing the welcome m
 - Navigate to `http://127.0.0.1:8000/`
 - Expected Output:
   
-
+<img width="958" alt="image" src="https://github.com/user-attachments/assets/ff057442-e64b-4d76-b5d8-b0c382e40683" />
 
 ---
 
@@ -92,7 +92,7 @@ This section walks you through how to use the API — from viewing the welcome m
 
 - Go to: `http://127.0.0.1:8000/docs`
 
-![Swagger UI Screenshot](screenshots/swagger.png)
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/a27b0c29-7d97-4739-be43-d01f04c25d29" />
 
 ---
 
@@ -102,11 +102,13 @@ This section walks you through how to use the API — from viewing the welcome m
 - Provide:
 ```json
 {
-  "username": "hooriya",
-  "email": "hooriya@example.com"
+  "username": "Hoor",
+  "email": "hoor@example.com"
 }
 ```
-![User Creation Screenshot](screenshots/create_user.png)
+<img width="917" alt="image" src="https://github.com/user-attachments/assets/e4cc9b78-2e12-4922-a0f9-d2a095c05632" />
+
+<img width="390" alt="image" src="https://github.com/user-attachments/assets/4839a7d6-bb08-45d8-8d6e-cfd330d5f5ea" />
 
 ---
 
@@ -121,7 +123,9 @@ This section walks you through how to use the API — from viewing the welcome m
   "user_id": 1
 }
 ```
-![Create Task Screenshot](screenshots/create_task.png)
+<img width="712" alt="image" src="https://github.com/user-attachments/assets/87ff491d-21ec-4bb0-b448-f7f0e3139267" />
+
+<img width="427" alt="image" src="https://github.com/user-attachments/assets/1b856131-6509-45fa-be13-8f8fbcf2547c" />
 
 ---
 
@@ -133,7 +137,7 @@ This section walks you through how to use the API — from viewing the welcome m
   "status": "completed"
 }
 ```
-![Update Status Screenshot](screenshots/update_status.png)
+<img width="628" alt="image" src="https://github.com/user-attachments/assets/be5776bb-08cc-4dca-ab5a-6a0029a09001" />
 
 ---
 
@@ -141,7 +145,7 @@ This section walks you through how to use the API — from viewing the welcome m
 
 - Use `GET /users/{user_id}/tasks`
 
-![View Tasks Screenshot](screenshots/view_tasks.png)
+<img width="390" alt="image" src="https://github.com/user-attachments/assets/8dae1d1c-8f84-443b-8a07-6c5f8b30c822" />
 
 ---
 
