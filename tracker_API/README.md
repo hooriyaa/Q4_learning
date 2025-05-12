@@ -159,10 +159,10 @@ The **Task Tracker API** is a simple yet powerful tool to manage users and their
 It lets you:
 
 👥 Create users
-📝 Assign and track tasks
-📊 Update task statuses
-🔗 View user-specific tasks
-🧪 Test everything via Swagger UI
+- 📝 Assign and track tasks
+- 📊 Update task statuses
+- 🔗 View user-specific tasks
+- 🧪 Test everything via Swagger UI
 
 Perfect for personal projects or team task management systems.
 Fast, flexible, and beginner-friendly. ✅
