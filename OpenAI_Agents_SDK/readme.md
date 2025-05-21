@@ -115,6 +115,7 @@ You can also make instructions dynamic by using a function that changes them bas
 If a user wants travel info for Japan, the instructions might become:
 
 “You are a travel agent who only talks about Japan.”
+
 ---
 
 ### 🧠 What Does `Runner.run()` Do?
