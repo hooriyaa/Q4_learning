@@ -89,6 +89,13 @@ You say: “Plan a 3-day trip to Japan.”
 In Python, a `@dataclass` is a shortcut that makes code cleaner.  
 In the SDK, it helps agents **store instructions, tools, and rules** without lots of boilerplate.
 
+
+### Why `@dataclass` is used:
+- Automatically generates `__init__`, `__repr__`, and other helper methods
+- Makes the code shorter, cleaner, and more readable
+- Shows clearly that `Agent` is just a configuration container
+
+
 📌 **Think of it like**:  
 Instead of writing a long setup to create an agent, `@dataclass` helps you build agents quickly and neatly.
 
@@ -102,10 +109,12 @@ Instructions are the **system prompt** — the basic guide for your agent’s be
 “You are a polite and helpful customer support agent.”  
 “You are a research assistant who gives short summaries.”
 
-Instructions can be **dynamic** too:  
-📌 If a user wants travel info for Japan →  
-“You are a travel agent who only talks about Japan.”
+You can also make instructions dynamic by using a function that changes them based on context.
 
+📌 Example:
+If a user wants travel info for Japan, the instructions might become:
+
+“You are a travel agent who only talks about Japan.”
 ---
 
 ### 🧠 What Does `Runner.run()` Do?
