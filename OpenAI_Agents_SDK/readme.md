@@ -1,6 +1,5 @@
 
 # 🧠 Getting Started with OpenAI Agents SDK  
-**Building Smart AI Teams Made Easy**
 
 AI is evolving fast – and it's no longer just about asking a chatbot simple questions. With **OpenAI's Agents SDK**, we can now build **AI teams** that:
 
