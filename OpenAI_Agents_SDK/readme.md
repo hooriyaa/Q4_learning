@@ -170,6 +170,8 @@ Whether you’re just starting or already experienced, this SDK is fun, flexible
 
 ---
 
+blog link: [https://medium.com/@guujarmahnoor0312/getting-started-with-openai-agents-sdk-building-smart-ai-teams-made-easy-fa265bae1818]
+
 ✍️ **Written by:** Hooriya M. Fareed  
 👩‍💻 Frontend Developer | Learning AI Systems  
 🔗 Follow for more AI, Dev, and Tech stories  
