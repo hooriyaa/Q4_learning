@@ -85,81 +85,120 @@ You say: “Plan a 3-day trip to Japan.”
 
 ## 👩‍💻 What’s Happening Under the Hood?
 
-### ✅ Why is the `Agent` class a `@dataclass`?  
-In Python, a `@dataclass` is a shortcut that makes code cleaner.  
-In the SDK, it helps agents **store instructions, tools, and rules** without lots of boilerplate.
+## ✅ Why is the `Agent` class a `@dataclass`?
 
+In Python, `@dataclass` is a shortcut that makes code shorter and cleaner.
 
-### Why `@dataclass` is used:
-- Automatically generates `__init__`, `__repr__`, and other helper methods
-- Makes the code shorter, cleaner, and more readable
-- Shows clearly that `Agent` is just a configuration container
+### Why it's used:
+- Automatically creates `__init__`, `__repr__`, etc.
+- Reduces boilerplate code
+- Clearly shows that `Agent` is just a configuration container
 
+### 📌 Think of it like:
+Instead of manually filling in all details like a long form, `@dataclass` is like a smart template that does it for you.
 
-📌 **Think of it like**:  
-Instead of writing a long setup to create an agent, `@dataclass` helps you build agents quickly and neatly.
+### 💡 Example:
 
----
+```python
+# Without @dataclass
+class Agent:
+    def __init__(self, name, tools, rules):
+        self.name = name
+        self.tools = tools
+        self.rules = rules
+```
 
+```python
+# With @dataclass
+from dataclasses import dataclass
 
-### 📥 What Are "Instructions"?  
-Instructions are the **system prompt** — the basic guide for your agent’s behavior.
-
-📌 **Example**:  
-“You are a polite and helpful customer support agent.”  
-“You are a research assistant who gives short summaries.”
-
-You can also make instructions dynamic by using a function that changes them based on context.
-
-📌 Example:
-If a user wants travel info for Japan, the instructions might become:
-
-“You are a travel agent who only talks about Japan.”
-
----
-
-### 🧠 What Does `Runner.run()` Do?
-
-The `Runner` class **executes an agent**.  
-When you call `Runner.run()`, you give it:  
-- The user input  
-- The agent  
-- Optional context  
-
-It:  
-- Starts the task  
-- Guides tool usage  
-- Returns the final output  
-
-📌 Think of it as the **manager** that helps agents get things done.
+@dataclass
+class Agent:
+    name: str
+    tools: list
+    rules: str
+```
 
 ---
 
-### 🔄 What Is `TContext` and What Are Generics?
+## 📥 What Are "Instructions"?
 
-Different apps need different types of data. That’s where **generics** come in.
+Instructions are like a **system prompt** — they guide the agent’s behavior.
 
-#### 🧩 Generics = Smart Containers  
-They let you write **one function/class** for any data type.  
+### 📌 Think of it like:
+A job description telling an employee what they should do.
 
-📌 **Example**:  
-A Printer function that can print:  
-- “Hello world” (text)  
-- 123 (number)  
+### 💡 Examples:
+- `"You are a polite and helpful customer support agent."`
+- `"You are a research assistant who gives short summaries."`
 
-No need to write two separate functions!
+You can also **dynamically update** them based on the situation.
+
+### 🔄 Example (Dynamic Instructions):
+
+If the user says:  
+> “I want travel advice for Japan”
+
+Then instructions could change to:  
+> `"You are a travel agent who only talks about Japan."`
 
 ---
 
-#### 📦 TContext in OpenAI SDK = Custom Data for Agents  
-TContext is a generic container for app-specific data.  
+## 🧠 What Does `Runner.run()` Do?
 
-📌 **Examples**:  
-- ✈️ TravelBot → {"destination": "Paris", "budget": "low"}  
-- 📰 NewsBot → {"topic": "AI", "length": "short"}  
+The `Runner` class executes the agent’s logic.
 
-🎯 **Benefit**: Write once → Reuse for any agent! 🚀
+### 📌 Think of it like:
+A **project manager** assigning tasks and collecting results.
 
+### 💡 What it does:
+- Takes user input
+- Guides the agent through the task
+- Coordinates tool usage
+- Returns the final result
+
+### Example:
+User asks: “What’s the weather in Paris?”  
+`Runner.run()`:
+1. Sends this input to the agent
+2. Agent uses a weather tool
+3. Returns → `"It’s 24°C and sunny in Paris"`
+
+---
+
+## 🔄 What is `TContext` and What Are Generics?
+
+### 🧩 Generics = Smart Containers  
+They let you use the **same function or class** with different data types.
+
+### 📌 Think of it like:
+One box that can carry either books, clothes, or gadgets — you don’t need a new box every time.
+
+### 💡 Example:
+
+```python
+def printer(item):
+    print(item)
+```
+
+Works for:
+```python
+printer("Hello")
+printer(123)
+```
+
+---
+
+### 📦 TContext in the SDK = App-Specific Data
+
+TContext is a flexible data container you can shape based on your app.
+
+### 💡 Examples:
+- ✈️ **TravelBot** → `{"destination": "Paris", "budget": "low"}`
+- 📰 **NewsBot** → `{"topic": "AI", "length": "short"}`
+
+### 🎯 Benefit:
+Write once → Reuse for any agent → Customize as needed!
 ---
 
 ## 🎯 Why Use the OpenAI Agents SDK?
