@@ -197,8 +197,10 @@ TContext is a flexible data container you can shape based on your app.
 - ✈️ **TravelBot** → `{"destination": "Paris", "budget": "low"}`
 - 📰 **NewsBot** → `{"topic": "AI", "length": "short"}`
 
+
 ### 🎯 Benefit:
 Write once → Reuse for any agent → Customize as needed!
+
 ---
 
 ## 🎯 Why Use the OpenAI Agents SDK?
