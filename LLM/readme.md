@@ -36,7 +36,7 @@ Let’s understand LLMs in **simple and easy steps**:
 
 ### Step 3: **Understanding Context (Transformer Architecture)**
 - LLMs use a design called a **Transformer**, which helps them understand **how all words in a sentence are related**.
-  - Example: `"Hooriya M. Fareed went to the market because she was hungry"` → Model understands "she" means "Hooriya M. Fareed".
+  - Example: `"Hooriya went to the market because she was hungry"` → Model understands "she" means "Hooriya".
 
 ### Step 4: **Training (Learning What Comes Next)**
 - Model is shown sentences and asked to guess the next word.
