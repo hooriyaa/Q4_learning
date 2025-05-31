@@ -113,3 +113,5 @@ It’s not just about replying with words — now AI can:
 ---
 
 📌 Found this helpful? Star ⭐ the repo and share it!  
+
+blog link: [[https://medium.com/@guujarmahnoor0312/getting-started-with-openai-agents-sdk-building-smart-ai-teams-made-easy-fa265bae1818](https://medium.com/@guujarmahnoor0312/how-ai-calls-tools-and-gives-instructions-to-get-things-done-️-5727aa1eec53)]
